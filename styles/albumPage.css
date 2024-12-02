@@ -1,0 +1,151 @@
+.album-container {
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  background-color: #121212;
+  color: white;
+  text-align: center;
+}
+
+.album-title {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ff6347;
+  margin-bottom: 20px;
+}
+
+.album-release-date {
+  font-size: 1.5rem;
+  color: #ffd700;
+}
+
+.album-cover {
+  width: 350px;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.album-cover:hover {
+  transform: scale(1.1);
+}
+
+.album-link {
+  display: block;
+  color: #1e90ff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 20px 0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.album-link:hover {
+  color: #ff6347;
+}
+
+.track-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.track-item {
+  background-color: #333;
+  padding: 12px;
+  margin: 8px 0;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 8px;
+  border: 2px solid #444;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.track-item:hover {
+  background-color: #ff6347;
+  color: white;
+  transform: scale(1.05);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1c1c1c;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form-title {
+  color: #ffd700;
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.input-field {
+  padding: 15px;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  color: white;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.input-field:focus {
+  background-color: #444;
+}
+
+.submit-button,
+.cancel-button {
+  padding: 15px 25px;
+  margin: 15px 0;
+  background-color: #ff6347;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover,
+.cancel-button:hover {
+  background-color: #ff4500;
+}
+
+.edit-button,
+.delete-button {
+  padding: 15px 30px;
+  margin: 10px;
+  background-color: #1e90ff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  background-color: #ff6347;
+}

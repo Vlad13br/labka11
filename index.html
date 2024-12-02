@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Альбоми</title>
+    <link rel="stylesheet" href="./styles/albums.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li class="navbar-item">
+          <a href="/" class="navbar-link">Головна</a>
+        </li>
+        <li class="navbar-item">
+          <a href="./about.html" class="navbar-link">Про проект</a>
+        </li>
+        <li class="navbar-item">
+          <a href="./history.html" class="navbar-link">Історія гурту</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="home-page">
+      <h1 class="page-title">Альбоми</h1>
+
+      <div id="loading-message" class="loading-message">
+        Завантаження альбомів...
+      </div>
+      <div id="error-message" class="error-message"></div>
+
+      <div id="album-list" class="album-list"></div>
+
+      <button id="form-toggle-button" class="form-toggle-button">
+        Створити новий альбом
+      </button>
+
+      <form id="album-form" class="album-form" style="display: none">
+        <h2 class="form-title">Створити новий альбом</h2>
+        <label class="form-label">
+          Назва:
+          <input type="text" id="title" class="form-input" required />
+        </label>
+        <label class="form-label">
+          Рік:
+          <input type="number" id="year" class="form-input" required />
+        </label>
+        <label class="form-label">
+          Кількість пісень:
+          <input
+            type="number"
+            id="number_of_songs"
+            class="form-input"
+            required
+          />
+        </label>
+        <label class="form-label">
+          Посилання на обкладинку:
+          <input type="text" id="cover_image" class="form-input" />
+        </label>
+        <label class="form-label">
+          Посилання на альбом:
+          <input type="url" id="album_link" class="form-input" />
+        </label>
+        <button type="submit" class="form-button">Створити альбом</button>
+      </form>
+    </div>
+
+    <script src="./scripts/albums.js"></script>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сторінка альбому</title>
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/albumPage.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li class="navbar-item">
+          <a href="/" class="navbar-link">Головна</a>
+        </li>
+        <li class="navbar-item">
+          <a href="./about.html" class="navbar-link">Про проект</a>
+        </li>
+        <li class="navbar-item">
+          <a href="./history.html" class="navbar-link">Історія гурту</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="loading-message" style="display: none">Завантаження...</div>
+    <div id="error-message" style="color: red"></div>
+
+    <div id="album-container" class="album-container" style="display: none">
+      <div id="album-view">
+        <h1 id="album-title" class="album-title"></h1>
+        <p id="album-release-date" class="album-release-date"></p>
+        <img id="album-cover" class="album-cover" alt="Обкладинка альбому" />
+        <p id="album-number-of-songs"></p>
+        <a
+          id="album-link"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="album-link"
+          >Прослухати альбом</a
+        >
+
+        <h2 class="track-list-title">Список пісень</h2>
+        <ul id="track-list" class="track-list"></ul>
+
+        <button id="edit-button" class="edit-button">Редагувати альбом</button>
+        <button id="delete-button" class="delete-button">
+          Видалити альбом
+        </button>
+      </div>
+
+      <form id="album-form" style="display: none" class="form">
+        <h1 class="form-title">Редагування альбому</h1>
+        <label>
+          Назва:
+          <input
+            type="text"
+            id="title"
+            name="title"
+            class="input-field"
+            required
+          />
+        </label>
+        <label>
+          Дата виходу:
+          <input
+            type="text"
+            id="release_date"
+            name="release_date"
+            class="input-field"
+            required
+          />
+        </label>
+        <label>
+          Обкладинка:
+          <input
+            type="text"
+            id="cover_image"
+            name="cover_image"
+            class="input-field"
+          />
+        </label>
+        <label>
+          Кількість пісень:
+          <input
+            type="number"
+            id="number_of_songs"
+            name="number_of_songs"
+            class="input-field"
+            required
+          />
+        </label>
+        <label>
+          Посилання на альбом:
+          <input
+            type="url"
+            id="album_link"
+            name="album_link"
+            class="input-field"
+          />
+        </label>
+        <button type="submit" class="submit-button">Зберегти зміни</button>
+        <button type="button" id="cancel-button" class="cancel-button">
+          Скасувати
+        </button>
+      </form>
+    </div>
+
+    <script src="./scripts/albumPage.js"></script>
+  </body>
+</html>

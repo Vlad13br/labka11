@@ -1,0 +1,65 @@
+body {
+  margin: 0px;
+}
+.about-container {
+  background-color: #121212;
+  color: #e74c3c;
+  font-family: "Impact", sans-serif;
+  padding: 40px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+  border: 3px solid #e74c3c;
+  margin: 0;
+}
+
+.intro-text {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.team-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #e74c3c;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.team-members {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #ddd;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.description::before {
+  content: "🔥 ";
+  color: #e74c3c;
+  font-size: 2rem;
+}
+
+.about-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.9);
+}
+
+.about-container:active {
+  transform: scale(0.98);
+}

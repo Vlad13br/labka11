@@ -1,0 +1,58 @@
+body {
+  margin: 0px;
+}
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #222;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+}
+
+.title {
+  text-align: center;
+  color: #e74c3c;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-item {
+  background-color: #333;
+  margin: 15px 0;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.6);
+  color: #ddd;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+}
+
+.list-item:hover {
+  background-color: #444;
+  transform: scale(1.02);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.list-item::before {
+  content: "🔥";
+  margin-right: 10px;
+  color: #e74c3c;
+  font-size: 1.5rem;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.list-item a:hover {
+  text-decoration: underline;
+}
