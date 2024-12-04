@@ -3,7 +3,7 @@ from flask_cors import CORS
 import json
 import os
 app = Flask(__name__)
-CORS(app, origins="http://127.0.0.1:5500")
+CORS(app, origins="*")
 
 app.config['SECRET_KEY'] = 'secret_key'
 
