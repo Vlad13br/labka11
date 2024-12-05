@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Вхід</title>
+    <link rel="stylesheet" href="./styles/register.css" />
+  </head>
+  <body>
+    <div class="home-page">
+      <div class="form-container">
+        <h2 class="form-title">Вхід</h2>
+        <form id="login-form">
+          <label class="form-label" for="login-email">Email</label>
+          <input
+            class="form-input"
+            type="email"
+            id="login-email"
+            name="email"
+            placeholder="Введіть email"
+            required
+          />
+          <label class="form-label" for="login-password">Пароль</label>
+          <input
+            class="form-input"
+            type="password"
+            id="login-password"
+            name="password"
+            placeholder="Введіть пароль"
+            required
+          />
+          <button class="form-button" type="submit">Увійти</button>
+        </form>
+        <button class="form-toggle-button" onclick="redirectToRegister()">
+          Немає акаунту? Зареєструватися
+        </button>
+      </div>
+    </div>
+    <script src="./scripts/login.js"></script>
+  </body>
+</html>

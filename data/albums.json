@@ -1,342 +1,462 @@
 [
-  {
-    "id": 1,
-    "title": "Sinner",
-    "release_date": "2001",
-    "number_of_songs": 12,
-    "cover_image": "https://lh3.googleusercontent.com/nDE_Rh9gp29RVqYBVW_jbfBCuwDE8Pc-UmHiJpXUzf26GKGd13ik8Lar_iAfC2xEZ916UehPTLdV_LI=w544-h544-l90-rj",
-    "album_link": "https://music.youtube.com/playlist?list=OLAK5uy_moTfhhDPQJAVlZyADCFbG_zD0qjDzvrT4",
-    "tracks": [
-      {
+    {
         "id": 1,
-        "title": "Bodies",
-        "duration": "4:05"
-      },
-      {
+        "title": "Follow the Leader",
+        "release_date": "1998",
+        "number_of_songs": 14,
+        "cover_image": "https://lh3.googleusercontent.com/4SvxoyJf8oscWyfPEN3sQsiTpzcQ_4ko4x0ywY_-p4GNkLql4RQJh0GfF85Bumm8O2ODKfhsS2tya1Px0Q=w544-h544-l90-rj",
+        "album_link": "https://music.youtube.com/playlist?list=OLAK5uy_l9DBNhKxExv0Xd2CrzEY0vmUupeVjzRVw",
+        "tracks": [
+            {
+                "id": 1,
+                "title": "Freak on a Leash",
+                "duration": "4:15"
+            },
+            {
+                "id": 2,
+                "title": "Got the Life",
+                "duration": "3:45"
+            },
+            {
+                "id": 3,
+                "title": "Dead Bodies Everywhere",
+                "duration": "4:25"
+            },
+            {
+                "id": 4,
+                "title": "Children of the Korn",
+                "duration": "3:50"
+            },
+            {
+                "id": 5,
+                "title": "All in the Family",
+                "duration": "4:48"
+            },
+            {
+                "id": 6,
+                "title": "Pretty",
+                "duration": "4:12"
+            },
+            {
+                "id": 7,
+                "title": "Seed",
+                "duration": "3:55"
+            },
+            {
+                "id": 8,
+                "title": "Camel Song",
+                "duration": "4:20"
+            },
+            {
+                "id": 9,
+                "title": "Reclaim My Place",
+                "duration": "4:32"
+            },
+            {
+                "id": 10,
+                "title": "Justin",
+                "duration": "4:17"
+            },
+            {
+                "id": 11,
+                "title": "My Gift to You",
+                "duration": "4:15"
+            },
+            {
+                "id": 12,
+                "title": "Earache My Eye",
+                "duration": "3:38"
+            },
+            {
+                "id": 13,
+                "title": "B.B.K.",
+                "duration": "3:56"
+            },
+            {
+                "id": 14,
+                "title": "It's On!",
+                "duration": "4:28"
+            }
+        ]
+    },
+    {
         "id": 2,
-        "title": "Tear Away",
-        "duration": "3:25"
-      },
-      {
+        "title": "Untouchables",
+        "release_date": "2002",
+        "number_of_songs": 13,
+        "cover_image": "https://lh3.googleusercontent.com/wiScJXwj7SD9aaULL-J3ckOnyeSMhR1TWmlaIZv9577vfgHLdzUknMHyosLz8U1RlyI1x4GsXm9b8eXj=w544-h544-l90-rj",
+        "album_link": "https://music.youtube.com/playlist?list=OLAK5uy_lmxYaYHh0uSreNyz0D8KB1KNe2wbonCCA",
+        "tracks": [
+            {
+                "id": 1,
+                "title": "Here to Stay",
+                "duration": "4:32"
+            },
+            {
+                "id": 2,
+                "title": "Thoughtless",
+                "duration": "4:33"
+            },
+            {
+                "id": 3,
+                "title": "Hollow Life",
+                "duration": "4:09"
+            },
+            {
+                "id": 4,
+                "title": "Blame",
+                "duration": "3:51"
+            },
+            {
+                "id": 5,
+                "title": "Bottled Up Inside",
+                "duration": "4:00"
+            },
+            {
+                "id": 6,
+                "title": "Wake Up Hate",
+                "duration": "3:15"
+            },
+            {
+                "id": 7,
+                "title": "One More Time",
+                "duration": "4:35"
+            },
+            {
+                "id": 8,
+                "title": "Alone I Break",
+                "duration": "4:19"
+            },
+            {
+                "id": 9,
+                "title": "Embrace",
+                "duration": "4:00"
+            },
+            {
+                "id": 10,
+                "title": "Beat It Upright",
+                "duration": "4:15"
+            },
+            {
+                "id": 11,
+                "title": "I'm Hiding",
+                "duration": "4:15"
+            },
+            {
+                "id": 12,
+                "title": "No One's There",
+                "duration": "5:05"
+            },
+            {
+                "id": 13,
+                "title": "Make Believe",
+                "duration": "4:10"
+            }
+        ]
+    },
+    {
         "id": 3,
-        "title": "Let the Bodies Hit the Floor",
-        "duration": "4:10"
-      },
-      {
+        "title": "Issues",
+        "release_date": "1999",
+        "number_of_songs": 16,
+        "cover_image": "https://lh3.googleusercontent.com/qKoTPw0fLpyahOEKucKdxvhokpZWcFg8OndJUIUmBk9lz_Jgv1tq3NqM-DPmse7ncNOU3w-nEPlxPlHF=w544-h544-l90-rj",
+        "album_link": "https://music.youtube.com/playlist?list=OLAK5uy_n9TsbekLMHpmkaPQjbVtdS2Ifq-NIT_9s",
+        "tracks": [
+            {
+                "id": 1,
+                "title": "Dead",
+                "duration": "1:15"
+            },
+            {
+                "id": 2,
+                "title": "Falling Away from Me",
+                "duration": "4:31"
+            },
+            {
+                "id": 3,
+                "title": "Trash",
+                "duration": "3:27"
+            },
+            {
+                "id": 4,
+                "title": "4 U",
+                "duration": "1:43"
+            },
+            {
+                "id": 5,
+                "title": "Beg for Me",
+                "duration": "3:56"
+            },
+            {
+                "id": 6,
+                "title": "Make Me Bad",
+                "duration": "3:55"
+            },
+            {
+                "id": 7,
+                "title": "Wake Up",
+                "duration": "4:07"
+            },
+            {
+                "id": 8,
+                "title": "Am I Going Crazy",
+                "duration": "0:59"
+            },
+            {
+                "id": 9,
+                "title": "Hey Daddy",
+                "duration": "3:45"
+            },
+            {
+                "id": 10,
+                "title": "Let's Get This Party Started",
+                "duration": "3:42"
+            },
+            {
+                "id": 11,
+                "title": "Wish You Could Be Me",
+                "duration": "1:07"
+            },
+            {
+                "id": 12,
+                "title": "Counting",
+                "duration": "3:39"
+            },
+            {
+                "id": 13,
+                "title": "Dirty",
+                "duration": "3:43"
+            }
+        ]
+    },
+    {
         "id": 4,
-        "title": "No More",
-        "duration": "3:35"
-      },
-      {
+        "title": "Take a Look in the Mirror",
+        "release_date": "2003",
+        "number_of_songs": 13,
+        "cover_image": "https://lh3.googleusercontent.com/FlblKPLlfA1FLrHOjjAFeSaXB9sb_yAmmza0YwABv1MnBtlhFjTvPbwzsThDWNRLMPmgVQ65u03fSlJnew=w544-h544-l90-rj",
+        "album_link": "https://music.youtube.com/playlist?list=OLAK5uy_l6Xv_xpIHIK3MVtiEPxroFKgAecZkoVg4",
+        "tracks": [
+            {
+                "id": 1,
+                "title": "Right Now",
+                "duration": "3:10"
+            },
+            {
+                "id": 2,
+                "title": "Break Some Off",
+                "duration": "2:35"
+            },
+            {
+                "id": 3,
+                "title": "Counting on Me",
+                "duration": "4:50"
+            },
+            {
+                "id": 4,
+                "title": "Here It Comes Again",
+                "duration": "3:34"
+            },
+            {
+                "id": 5,
+                "title": "Deep Inside",
+                "duration": "2:46"
+            },
+            {
+                "id": 6,
+                "title": "Did My Time",
+                "duration": "4:04"
+            },
+            {
+                "id": 7,
+                "title": "Everything I've Known",
+                "duration": "3:34"
+            },
+            {
+                "id": 8,
+                "title": "Play Me (feat. Nas)",
+                "duration": "3:21"
+            },
+            {
+                "id": 9,
+                "title": "Alive",
+                "duration": "4:30"
+            },
+            {
+                "id": 10,
+                "title": "Let's Do This Now",
+                "duration": "3:19"
+            },
+            {
+                "id": 11,
+                "title": "I'm Done",
+                "duration": "3:23"
+            },
+            {
+                "id": 12,
+                "title": "Y'All Want a Single",
+                "duration": "3:17"
+            },
+            {
+                "id": 13,
+                "title": "When Will This End",
+                "duration": "14:23"
+            }
+        ]
+    },
+    {
         "id": 5,
-        "title": "Sinner",
-        "duration": "3:05"
-      },
-      {
+        "title": "See You on the Other Side",
+        "release_date": "2005",
+        "number_of_songs": 14,
+        "cover_image": "https://lh3.googleusercontent.com/F8PeGTaM4f_UR2v4apVnDlGEWMEgBTnl0AZGdEbm9w5lu-PkL66anOwLb_oV8tEj8E9opGGmGe2nq7Uh=w544-h544-l90-rj",
+        "album_link": "https://music.youtube.com/playlist?list=OLAK5uy_nWTAgGvIEBjmwSqiHcCcNUSv3DN04iqgA",
+        "tracks": [
+            {
+                "id": 1,
+                "title": "Twisted Transistor",
+                "duration": "4:12"
+            },
+            {
+                "id": 2,
+                "title": "Politics",
+                "duration": "3:16"
+            },
+            {
+                "id": 3,
+                "title": "Hypocrites",
+                "duration": "3:49"
+            },
+            {
+                "id": 4,
+                "title": "Souvenir",
+                "duration": "3:50"
+            },
+            {
+                "id": 5,
+                "title": "10 or a 2-Way",
+                "duration": "4:41"
+            },
+            {
+                "id": 6,
+                "title": "Throw Me Away",
+                "duration": "4:41"
+            },
+            {
+                "id": 7,
+                "title": "Love Song",
+                "duration": "4:18"
+            },
+            {
+                "id": 8,
+                "title": "Open Up",
+                "duration": "6:15"
+            },
+            {
+                "id": 9,
+                "title": "Coming Undone",
+                "duration": "3:19"
+            },
+            {
+                "id": 10,
+                "title": "Getting Off",
+                "duration": "3:25"
+            },
+            {
+                "id": 11,
+                "title": "Liar",
+                "duration": "4:14"
+            },
+            {
+                "id": 12,
+                "title": "For No One",
+                "duration": "3:38"
+            },
+            {
+                "id": 13,
+                "title": "Seen It All",
+                "duration": "6:19"
+            },
+            {
+                "id": 14,
+                "title": "Tearjerker",
+                "duration": "5:05"
+            }
+        ]
+    },
+    {
         "id": 6,
-        "title": "I Am",
-        "duration": "3:45"
-      },
-      {
-        "id": 7,
-        "title": "Virtue",
-        "duration": "4:00"
-      },
-      {
-        "id": 8,
-        "title": "One More Chance",
-        "duration": "3:50"
-      },
-      {
-        "id": 9,
-        "title": "Sick",
-        "duration": "4:00"
-      },
-      {
-        "id": 10,
-        "title": "Love and War",
-        "duration": "3:15"
-      },
-      {
-        "id": 11,
-        "title": "Reminded",
-        "duration": "3:40"
-      },
-      {
-        "id": 12,
-        "title": "Fear",
-        "duration": "3:55"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Full Circle",
-    "release_date": "2008",
-    "number_of_songs": 11,
-    "cover_image": "https://lh3.googleusercontent.com/9dTTB2TiIjqdNoFFaoRgM3PO9wfTK1p5B1n8ZtLEQbgxOs2dJOvGj8yxGLDKqmdpVaLHF3YNmYNFhZAs=w544-h544-s-l90-rj",
-    "album_link": "https://music.youtube.com/playlist?list=OLAK5uy_mmCIczln7Sy36jYpDY7-4EUOgxthvGqzk",
-    "tracks": [
-      {
-        "id": 1,
-        "title": "37 Stitches",
-        "duration": "3:35"
-      },
-      {
-        "id": 2,
-        "title": "Sinner",
-        "duration": "3:45"
-      },
-      {
-        "id": 3,
-        "title": "Full Circle",
-        "duration": "4:12"
-      },
-      {
-        "id": 4,
-        "title": "Tear Away",
-        "duration": "3:30"
-      },
-      {
-        "id": 5,
-        "title": "Shame",
-        "duration": "4:00"
-      },
-      {
-        "id": 6,
-        "title": "Steppin' Up",
-        "duration": "3:45"
-      },
-      {
-        "id": 7,
-        "title": "Pride",
-        "duration": "3:50"
-      },
-      {
-        "id": 8,
-        "title": "Harder Than Me",
-        "duration": "3:40"
-      },
-      {
-        "id": 9,
-        "title": "The River",
-        "duration": "4:05"
-      },
-      {
-        "id": 10,
-        "title": "Make Me Wanna Die",
-        "duration": "3:58"
-      },
-      {
-        "id": 11,
-        "title": "Love and War",
-        "duration": "3:45"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Drowning Pool",
-    "release_date": "2010",
-    "number_of_songs": 12,
-    "cover_image": "https://lh3.googleusercontent.com/7D65_2X1bYLZgxDmQfh2gRoUsRLACpiIoLm1uXbsV8GrUl9oTG2CQBRYJOGiHhs0zJIvhYArv-vMLqoZ=w544-h544-l90-rj",
-    "album_link": "https://music.youtube.com/playlist?list=OLAK5uy_m4K1ff_i0D4gODmIGcgRF2O3cUzE4Xo_s",
-    "tracks": [
-      {
-        "id": 1,
-        "title": "Feel Like I Do",
-        "duration": "3:45"
-      },
-      {
-        "id": 2,
-        "title": "One Finger and a Fist",
-        "duration": "3:58"
-      },
-      {
-        "id": 3,
-        "title": "Made of Scars",
-        "duration": "4:00"
-      },
-      {
-        "id": 4,
-        "title": "By the Blood",
-        "duration": "3:50"
-      },
-      {
-        "id": 5,
-        "title": "In a World So Cold",
-        "duration": "3:45"
-      },
-      {
-        "id": 6,
-        "title": "Children of the Grave",
-        "duration": "3:25"
-      },
-      {
-        "id": 7,
-        "title": "Murdered Love",
-        "duration": "4:00"
-      },
-      {
-        "id": 8,
-        "title": "The Chain",
-        "duration": "3:58"
-      },
-      {
-        "id": 9,
-        "title": "Lunatic",
-        "duration": "3:50"
-      },
-      {
-        "id": 10,
-        "title": "Alone",
-        "duration": "4:05"
-      },
-      {
-        "id": 11,
-        "title": "Jump Over the Edge",
-        "duration": "3:30"
-      },
-      {
-        "id": 12,
-        "title": "Sick of It All",
-        "duration": "3:50"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Hellelujah",
-    "release_date": "2016",
-    "number_of_songs": 11,
-    "cover_image": "https://lh3.googleusercontent.com/ubEkCCh4umHYRKmlJodmr72rmi7msumAIAE0Lf3F9B58_CgDR-QJG9S0LgDhzjRUJw7Ee93P2HvX-mQ=w544-h544-l90-rj",
-    "album_link": "https://music.youtube.com/playlist?list=OLAK5uy_kBJeYaWOicka7My6W_PAoSwIg5s_yQaTk",
-    "tracks": [
-      {
-        "id": 1,
-        "title": "Hell to Pay",
-        "duration": "3:35"
-      },
-      {
-        "id": 2,
-        "title": "Push",
-        "duration": "3:45"
-      },
-      {
-        "id": 3,
-        "title": "Sinner",
-        "duration": "3:55"
-      },
-      {
-        "id": 4,
-        "title": "By the Blood",
-        "duration": "4:00"
-      },
-      {
-        "id": 5,
-        "title": "Goddamn Vultures",
-        "duration": "3:25"
-      },
-      {
-        "id": 6,
-        "title": "The River",
-        "duration": "4:15"
-      },
-      {
-        "id": 7,
-        "title": "Silent Prayer",
-        "duration": "3:35"
-      },
-      {
-        "id": 8,
-        "title": "Bad Boy",
-        "duration": "4:00"
-      },
-      {
-        "id": 9,
-        "title": "Hellelujah",
-        "duration": "3:50"
-      },
-      {
-        "id": 10,
-        "title": "For the Record",
-        "duration": "4:00"
-      },
-      {
-        "id": 11,
-        "title": "Standoff",
-        "duration": "3:45"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Strike A Nerve",
-    "release_date": "2022",
-    "number_of_songs": 12,
-    "cover_image": "https://lh3.googleusercontent.com/kRIiDFVyQG-MFS6EnHpmDrdKAU3aE2t0bzcLO7BtjpONO3xFq9Y7YfunpDFWWbRDQpGJf3dfcnmusBsqEw=w544-h544-l90-rj",
-    "album_link": "https://music.youtube.com/playlist?list=OLAK5uy_lQzyZ51Tuz-KLCUb7ssKQLjLENBfRKrrA",
-    "tracks": [
-      {
-        "id": 1,
-        "title": "Strike a Nerve",
-        "duration": "3:50"
-      },
-      {
-        "id": 2,
-        "title": "Suffocate",
-        "duration": "4:05"
-      },
-      {
-        "id": 3,
-        "title": "Poison",
-        "duration": "3:40"
-      },
-      {
-        "id": 4,
-        "title": "One More",
-        "duration": "4:10"
-      },
-      {
-        "id": 5,
-        "title": "No Mercy",
-        "duration": "3:30"
-      },
-      {
-        "id": 6,
-        "title": "Torn",
-        "duration": "3:55"
-      },
-      {
-        "id": 7,
-        "title": "Wasteland",
-        "duration": "4:00"
-      },
-      {
-        "id": 8,
-        "title": "Rage",
-        "duration": "3:45"
-      },
-      {
-        "id": 9,
-        "title": "Embrace the Pain",
-        "duration": "4:00"
-      },
-      {
-        "id": 10,
-        "title": "Break Down",
-        "duration": "3:55"
-      },
-      {
-        "id": 11,
-        "title": "Fallen Angel",
-        "duration": "4:05"
-      },
-      {
-        "id": 12,
-        "title": "End of the Line",
-        "duration": "4:15"
-      }
-    ]
-  }
+        "title": "Untitleds",
+        "release_date": "2007",
+        "number_of_songs": 13,
+        "cover_image": "https://lh3.googleusercontent.com/KzmZRIDHf5XH_PCVlmdzYz5wAEkU4-l63oCf1oN24W4sJqtbaikquZf7miBmv15ldxza8Hbp4zfz0o-M=w544-h544-l90-rj",
+        "album_link": "https://music.youtube.com/playlist?list=OLAK5uy_nAwmGDhw1ySHIRDi-m-IEhrIUA69kJOio",
+        "tracks": [
+            {
+                "id": 1,
+                "title": "Intro",
+                "duration": "1:56"
+            },
+            {
+                "id": 2,
+                "title": "Starting Over",
+                "duration": "4:02"
+            },
+            {
+                "id": 3,
+                "title": "Bitch We Got a Problem",
+                "duration": "3:22"
+            },
+            {
+                "id": 4,
+                "title": "Evolution",
+                "duration": "3:38"
+            },
+            {
+                "id": 5,
+                "title": "Hold On",
+                "duration": "3:06"
+            },
+            {
+                "id": 6,
+                "title": "Kiss",
+                "duration": "4:09"
+            },
+            {
+                "id": 7,
+                "title": "Do What They Say",
+                "duration": "4:18"
+            },
+            {
+                "id": 8,
+                "title": "Ever Be",
+                "duration": "4:48"
+            },
+            {
+                "id": 9,
+                "title": "Love and Luxury",
+                "duration": "3:01"
+            },
+            {
+                "id": 10,
+                "title": "Innocent Bystander",
+                "duration": "3:28"
+            },
+            {
+                "id": 11,
+                "title": "Killing",
+                "duration": "3:36"
+            },
+            {
+                "id": 12,
+                "title": "Hushabye",
+                "duration": "3:53"
+            },
+            {
+                "id": 13,
+                "title": "I Will Protect You",
+                "duration": "5:29"
+            }
+        ]
+    }
 ]

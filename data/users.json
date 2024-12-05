@@ -1,0 +1,7 @@
+[
+    {
+        "id": 1,
+        "email": "sam@gmail.com",
+        "password": "scrypt:32768:8:1$HLrv1vM42h5dI7qb$fcbe1e9a3e25dc5ae4b0e675fbc4217c0857d33aa0c70fb0aeca127e39fd3bb7be02b3d4283a6cd1c7807a8d3ef1959303c87c89567210709398f9a7671bb724"
+    }
+]

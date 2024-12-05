@@ -6,7 +6,7 @@ nav {
 }
 
 .navbar {
-  background-color: #111;
+  background-color: #1a3d2f; /* Темно-зелений фон */
   padding: 10px;
 }
 
@@ -24,7 +24,7 @@ nav {
 }
 
 .navbar-link {
-  color: white;
+  color: #a8d5ba; /* Світло-зелений текст */
   text-decoration: none;
   display: block;
   padding: 12px 18px;
@@ -37,14 +37,14 @@ nav {
 }
 
 .navbar-link:hover {
-  background-color: #e74c3c;
+  background-color: #28a745;
   color: #fff;
   text-decoration: none;
   transform: scale(1.1);
 }
 
 .navbar-link:active {
-  background-color: #c0392b;
+  background-color: #19692c;
   transform: scale(0.95);
 }
 

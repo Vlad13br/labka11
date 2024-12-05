@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
       }
 
-      // Оновлений код для генерації HTML
       albumListElement.innerHTML = albums
         .map((album) => {
           return `
@@ -58,19 +57,19 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     try {
-      const response = await fetch(albumsUrl, {
+      await fetch(albumsUrl, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(newAlbum),
       });
-      const createdAlbum = await response.json();
+
       fetchAlbums();
       albumForm.reset();
       alert("Альбом успішно створено!");
     } catch (error) {
-      alert("Не вдалося створити альбом.");
+      console.log(error);
     }
   };
 

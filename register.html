@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="./styles/register.css" />
+  </head>
+  <body>
+    <div class="home-page">
+      <div class="form-container">
+        <h2 class="form-title">Реєстрація</h2>
+        <form id="register-form">
+          <label class="form-label" for="register-email">Email</label>
+          <input
+            class="form-input"
+            type="email"
+            id="register-email"
+            name="email"
+            placeholder="Введіть email"
+            required
+          />
+          <label class="form-label" for="register-password">Пароль</label>
+          <input
+            class="form-input"
+            type="password"
+            id="register-password"
+            name="password"
+            placeholder="Введіть пароль"
+            required
+          />
+
+          <button class="form-button" type="submit">Зареєструватися</button>
+        </form>
+        <button class="form-toggle-button" onclick="redirectToLogin()">
+          Вже зареєстровані? Увійти
+        </button>
+      </div>
+    </div>
+    <script src="./scripts/register.js"></script>
+  </body>
+</html>

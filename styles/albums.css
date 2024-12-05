@@ -1,148 +1,169 @@
 body {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
+  background-color: #1a1a1a; /* Темний фон */
+  color: #00ff00; /* Яскраво-зелений текст */
+  font-family: "Arial", sans-serif;
 }
+
 .home-page {
-  background-color: #1e1e1e;
-  color: white;
-  font-family: Arial, sans-serif;
+  background: linear-gradient(
+    90deg,
+    #00ff00,
+    #006400
+  ); /* Градієнт з яскраво-зеленого до темно-зеленого */
+  color: #00ff00;
   padding: 20px;
 }
 
 .page-title {
   text-align: center;
   font-size: 3rem;
-  color: #e74c3c;
+  color: #32cd32; /* Яскраво-зелений акцент */
   text-transform: uppercase;
   margin-bottom: 20px;
+  text-shadow: 0 0 10px #00ff00;
 }
 
 .loading-message,
 .error-message {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  color: #00cc00; /* Світліший зелений */
 }
 
 .album-form {
-  background-color: #2c2c2c;
-  border-radius: 8px;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.7);
-  padding: 20px;
-  margin-bottom: 30px;
-  max-width: 620px;
-  margin: 0 auto;
+  background-color: #003300; /* Темно-зелений фон */
+  border: 2px solid #00ff00; /* Яскраво-зелений обідок */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 255, 0, 0.2); /* М'яка зелена тінь */
+  padding: 30px;
+  margin: 30px auto;
+  max-width: 640px;
   box-sizing: border-box;
 }
 
 .form-title {
-  color: #e74c3c;
+  color: #00ff00;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 2rem;
+  text-transform: uppercase;
   margin-bottom: 20px;
 }
 
 .form-label {
-  display: block;
-  color: #ddd;
-  margin-bottom: 10px;
+  color: #00cc00; /* Світліший зелений */
   font-size: 1.2rem;
+  margin-bottom: 10px;
 }
 
 .form-input {
   width: 100%;
   padding: 12px;
   margin-bottom: 15px;
-  border: 1px solid #e74c3c;
+  border: 1px solid #00ff00; /* Яскраво-зелений обідок */
   border-radius: 4px;
-  background-color: #333;
-  color: white;
+  background-color: #003300; /* Темно-зелений фон */
+  color: #00ff00;
   font-size: 1.1rem;
   box-sizing: border-box;
 }
 
 .form-input:focus {
-  border-color: #c0392b;
-  background-color: #444;
+  border-color: #32cd32; /* Світліший зелений */
+  background-color: #004d00; /* Темно-зелений фон на фокусі */
+  box-shadow: 0 0 8px #32cd32;
 }
 
 .form-button {
   width: 100%;
   padding: 12px;
-  background-color: #e74c3c;
-  color: white;
+  background-color: #00ff00; /* Яскраво-зелений */
+  color: #003300; /* Темно-зелений текст */
   border: none;
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
   cursor: pointer;
   margin-top: 20px;
 }
 
 .form-button:hover {
-  background-color: #c0392b;
+  background-color: #32cd32; /* Світліший зелений */
+  box-shadow: 0 0 12px #32cd32;
 }
 
 .album-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
 }
 
 .album-card {
-  background-color: #2c2c2c;
-  border: 2px solid #e74c3c;
-  margin: 10px;
+  background-color: #003300; /* Темно-зелений фон */
+  border: 3px solid #00ff00; /* Яскраво-зелений обідок */
   padding: 20px;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 10px;
   width: 250px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 255, 0, 0.2);
 }
 
 .album-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(0, 255, 0, 0.4);
 }
 
 .album-card-title {
-  color: #e74c3c;
+  color: #32cd32; /* Світліший зелений */
   font-size: 1.5rem;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .album-card-year,
 .album-card-songs {
-  color: #ddd;
+  color: #00cc00; /* Світліший зелений */
   font-size: 1rem;
 }
 
 .album-card-image {
   width: 100%;
-  border-radius: 4px;
-  border: 3px solid #e74c3c;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  border-radius: 6px;
+  border: 3px solid #00ff00; /* Яскраво-зелений обідок */
+  box-shadow: 0 6px 12px rgba(0, 255, 0, 0.3);
 }
 
 .no-albums-message {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  color: #00cc00;
 }
 
 .form-toggle-button {
-  background-color: #e74c3c;
-  color: white;
-  padding: 10px 20px;
+  background-color: #00ff00;
+  color: #003300;
+  padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1.2rem;
   margin-bottom: 20px;
-  margin-left: 42%;
+  display: block;
+  margin: 0 auto;
 }
 
 .form-toggle-button:hover {
-  background-color: #c0392b;
+  background-color: #32cd32;
 }
 
 a {
   text-decoration: none;
-  color: #e74c3c;
+  color: #00ff00;
+}
+
+a:hover {
+  text-shadow: 0 0 10px #00ff00;
 }

@@ -68,10 +68,9 @@ document.addEventListener("DOMContentLoaded", function () {
     if (confirm("Ви впевнені, що хочете видалити цей альбом?")) {
       try {
         await fetch(`${apiBaseUrl}${albumId}`, { method: "DELETE" });
-        alert("Альбом видалено!");
         location.href = "/";
       } catch (error) {
-        alert("Не вдалося видалити альбом.");
+        console.log(error);
       }
     }
   };
@@ -95,11 +94,10 @@ document.addEventListener("DOMContentLoaded", function () {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(updatedAlbum),
       });
-      alert("Альбом успішно оновлено!");
       albumForm.style.display = "none";
       fetchAlbum();
     } catch (error) {
-      alert("Не вдалося оновити альбом.");
+      console.log(error);
     }
   };
 
